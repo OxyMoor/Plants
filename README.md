@@ -8,4 +8,4 @@ The project is a website of plants growing company
 - service filter
 - accordion
 - custom select
-### Deploy:
+### Deploy: https://oxymoor.github.io/Plants/
