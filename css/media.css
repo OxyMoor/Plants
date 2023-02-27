@@ -1,0 +1,505 @@
+@media (max-width: 1220px) {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .header-row {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .welcome-row {
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        padding-top: 38px;
+        padding-bottom: 70px;
+        background: url('../img/leafs_1.png') top 35px right no-repeat;
+        background-size: 280px;
+    }
+
+    .welcome-content {
+        max-width: 388px;
+    }
+
+    .welcome-title {
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .welcome-description {
+        margin-bottom: 35px;
+        margin-left: 5px;
+        max-width: 316px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .about-row {
+        padding-bottom: 421px;
+        padding-top: 39px;
+        background: url('../img/houseplant.png') center bottom 95px no-repeat;
+        background-size: 250px;
+    }
+
+    .about-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        max-width: 100%;
+    }
+
+    .about-title {
+        margin-bottom: 50px;
+        max-width: 420px;
+        text-align: center;
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .service-section {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .service-heading {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        margin-bottom: 40px;
+    }
+
+    .service-title {
+        margin-right: 0;
+        margin-bottom: 40px;
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .service-btns {
+        margin-bottom: 0;
+    }
+
+    .service-content {
+        row-gap: 38px;
+    }
+
+    .service-card {
+        padding-bottom: 14px;
+        width: 280px;
+    }
+
+    .service-card-description {
+        max-width: 203px;
+    }
+
+    .prices-section {
+        padding-bottom: 78px;
+    }
+
+    .prices-row {
+        padding-bottom: 88px;
+        background: url('../img/leafs_2.png') bottom 5px right -5px no-repeat;
+    }
+
+    .prices-items-title {
+        margin-bottom: 58px;
+        margin-left: 15px;
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .prices-content {
+        margin-top: 100px;
+        max-width: 296px;
+    }
+
+    .prices-title {
+        margin-bottom: 30px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .contacts-row {
+        padding-top: 40px;
+        min-height: 739px;
+        background: url('../img/contact_woman.png') center bottom no-repeat;
+        background-size: 200px;
+    }
+
+    .contacts-title {
+        margin-bottom: 100px;
+    }
+
+    .contacts-content {
+        -ms-flex-item-align:center;
+            -ms-grid-row-align:center;
+            align-self:center;
+        padding-top: 0;
+    }
+
+    .office-info-wrap {
+        top: 112px;
+    }
+
+    .contacts-city-wrap.selected {
+        padding-left: 34px;
+    }
+
+    .footer-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 18px;
+    }
+
+    .rss-link {
+        line-height: 30px;
+    }
+
+    .rss-wrap {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 730px) {
+    .container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .nav-list {
+        display: none;
+        position: absolute;
+        top: 96px;
+        right: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        padding-right: 25px;
+        width: 100vw;
+        height: 100vh;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(255,255,255,0.8)), to(rgba(255,255,255,1)));
+        background: -o-linear-gradient(left, rgba(255,255,255,0.8), rgba(255,255,255,1));
+        background: linear-gradient(to right, rgba(255,255,255,0.8), rgba(255,255,255,1));
+    }
+
+    .nav.open .nav-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    
+    .nav.open .nav-item {
+        margin: 0;
+    }
+   
+    .nav.open .btn-line:nth-child(1), .nav.open .btn-line:nth-child(4) {
+        display: none;
+    }
+    
+    .nav.open .btn-line:nth-child(2) {
+        margin-bottom: -2px;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+    }
+    
+    .nav.open .btn-line:nth-child(3) {
+        margin-bottom: 1px;
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+    }
+
+    .nav-open-btn {
+        display: block;
+        width: 40px;
+        height: 24px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .btn-line {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #717171;
+        -webkit-transition: -webkit-transform 0.1s ease;
+        transition: -webkit-transform 0.1s ease;
+        -o-transition: transform 0.1s ease;
+        transition: transform 0.1s ease;
+        transition: transform 0.1s ease, -webkit-transform 0.1s ease;
+    }
+
+    .btn-line:not(:last-child) {
+        margin-bottom: 6px;
+    }
+
+    .welcome-row {
+        padding-top: 26px;
+        padding-bottom: 24px;
+        background: none;
+    }
+
+    .welcome-content {
+        max-width: 349px;
+    }
+
+    .welcome-title {
+        margin-bottom: 20px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .welcome-description {
+        margin-bottom: 26px;
+        margin-left: 0;
+    }
+
+    .welcome-btn {
+        width: 100px;
+        height: 34px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .about-row {
+        padding-top: 30px;
+        padding-bottom: 182px;
+        background: url('../img/houseplant.png') center bottom 31px no-repeat;
+        background-size: 150px;
+    }
+
+    .about-title {
+        margin-bottom: 14px;
+        max-width: 375px;
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+    }
+
+    .section-description {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .service-section {
+        padding-top: 30px;
+        padding-bottom: 27px;
+    }
+
+    .service-title {
+        margin-bottom: 37px;
+        max-width: 278px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .service-btns {
+        -webkit-column-gap: 10px;
+           -moz-column-gap: 10px;
+                column-gap: 10px;
+    }
+
+    .service-btn, .prices-btn {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .service-content {
+        row-gap: 34px;
+    }
+
+    .prices-section {
+        padding-top: 25px;
+        padding-bottom: 40px;
+    } 
+
+    .prices-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding-bottom: 0;
+        background: none;
+    }
+
+    .prices-items-wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .prices-items {
+        padding: 29px 22px;
+    }
+
+    .prices-item {
+        width: 180px;
+        padding-left: 31px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .prices-item:not(:last-child) {
+        margin-bottom: 13px;
+    }
+
+    .prices-item.active {
+        height: 162px;
+    }
+
+    .prices-item.active .prices-item-info {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .prices-items-title {
+        margin-left: 0;
+        margin-bottom: 37px;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .prices-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-top: 0;
+        max-width: 285px;
+    }
+
+    .prices-title {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .contacts-row {
+        padding-top: 25px;
+        min-height: 445px;
+        background-size: 100px;
+    }
+
+    .contacts-title {
+        font-size: 25px;
+        line-height: 33px;
+        margin-bottom: 80px;
+    }
+
+    .contacts-city-wrap {
+        padding-right: 22px;
+        width: 300px;
+    }
+
+    .office-info-wrap {
+        top: 75px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+        padding: 32px 33px 25px;
+        width: 282px;
+    }
+
+    .field-wrap:not(:last-child) {
+        margin-bottom: 17px;
+    }
+
+    .field-title, .field-content {
+        line-height: 18px;
+    }
+
+    .field-title {
+        min-width: 65px;
+        max-width: 65px;
+        
+    }
+
+    .field-content {
+        max-width: 143px;
+    }
+
+    .options {
+        width: 300px;
+    }
+
+    .github-wrap {
+        line-height: 29px;
+    }
+}
+
+@media (max-width: 609px) {
+    .service-content {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
+
+
+@media (max-width: 379px) {
+    .contacts-content, .contacts-city-wrap {
+        width: 100%;
+    }
+
+    .options {
+        width: 100%;
+    }
+
+    .office-info-wrap {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .copy, .year, .rss-icon {
+        margin-right: 10px;
+    }
+}
